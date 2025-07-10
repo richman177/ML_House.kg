@@ -1,5 +1,5 @@
 import fastapi
-import uvicorn
+import uvicorn 
 from fastapi import FastAPI
 import redis.asyncio as redis
 from contextlib import asynccontextmanager
