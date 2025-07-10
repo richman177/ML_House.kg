@@ -5,7 +5,7 @@ import redis.asyncio as redis
 from contextlib import asynccontextmanager
 from fastapi_limiter import FastAPILimiter
 from house_app.admin.setup import setup_admin
-from house_app.db.database import SessionLocal
+from house_app.db.database import SessionLocal 
 from house_app.api.endpoints import auth, predict, social_auth
 from starlette.middleware.sessions import SessionMiddleware
 
