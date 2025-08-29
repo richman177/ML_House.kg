@@ -1,4 +1,4 @@
-from sqladmin import ModelView
+from sqladmin import ModelView   
 from house_app.db.models import UserProfile, Predict
 
 
@@ -9,6 +9,6 @@ class UserProfileAdmin(ModelView, model=UserProfile):
 
 
 class PredictAdmin(ModelView, model=Predict):
-    column_list = [Predict.id, Predict.region]
+    column_list = [Predict.id, Predict.region] 
     name = 'Predict'
     name_plural = 'Predicts'
